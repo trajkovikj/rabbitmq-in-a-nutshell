@@ -1,0 +1,3 @@
+﻿## Chapter 2: Exchanges
+
+Exchanges are simply put routers in a RabbitMQ broker. They are used to rout messages to the specified (bounded) queues. They route the messages based on a specific routing key. A queue cannot be created without binding it to a certain exchange. Even the simplest queue creation (where you do not declaratively specify an exchange) must be bound to an exchange that has routing key as the name of the queue itself.
