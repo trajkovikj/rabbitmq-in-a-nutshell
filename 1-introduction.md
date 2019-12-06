@@ -24,3 +24,10 @@ Rabbit Technologies Ltd., originally developed RabbitMQ. Rabbit Technologies sta
 | Cluster | A RabbitMQ cluster is a logical grouping of one or several nodes, each sharing users, virtual hosts, queues, exchanges, bindings, runtime parameters and other distributed state. |
 | Publisher | Application that publishes (pushes / writes) messages to the queue(s) |
 | Consumer | Application that consumes (pulls / reads) messages from queue(s) |
+
+
+#### RabbitMQ Clients
+RabbitMQ supports all major OS platforms (Windows, Linux, MacOS, Solaris, FreeBSD, etc.) It also supports almost all famous programming languages like Java, C#, Python, Ruby, PHP, JavaScript, GO, C/C++, Scala, etc. You can find all client libraries and developer tools on the link below.
+
+<a href="https://www.rabbitmq.com/devtools.html" target="_blank">Clients Libraries and Developer Tools</a>
+
