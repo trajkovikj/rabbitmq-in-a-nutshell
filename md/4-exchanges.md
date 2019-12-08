@@ -1,6 +1,8 @@
-﻿## Chapter 2: Exchanges
+﻿## Chapter 2: Exchanges and Queues
 
-Exchanges are simply put routers in a RabbitMQ broker. They are used to rout messages to the specified (bounded) queues. They route the messages based on a specific routing key. A queue cannot be created without binding it to a certain exchange. Even the simplest queue creation (where you do not declaratively specify an exchange) must be bound to an exchange that has routing key as the name of the queue itself.
+This chapter is a quick overview of the RabittMQ broker inner workings, and is especially dedicated to developers because it contains code samples of how to connect, push and consume messages from/to RabbitMQ broker. 
+
+Exchanges are simply put routers in a RabbitMQ broker. They are used to rout messages to the specified (bounded) queues. They route the messages based on a specific routing key. A queue cannot be created without binding it to a certain exchange. Even the simplest queue creation (where you do not declaratively specify an exchange), the queue must be bound to an exchange that has routing key as the name of the queue itself.
 
 There are four types of exchanges:
 1. Direct Exchanges
