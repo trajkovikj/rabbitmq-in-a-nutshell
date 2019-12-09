@@ -1,7 +1,7 @@
 ﻿## Contents
 1. Preface
 2. Introduction
-3. Exchanges and Queues
+3. Exchanges, Queues, Bindings and Consumers
 4. Distributed RabbitMQ
     * Nodes
     * Clusters

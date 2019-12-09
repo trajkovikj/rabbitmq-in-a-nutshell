@@ -1,4 +1,4 @@
-﻿## Chapter 3: Distributed RabbitMQ
+﻿## Chapter 4: Distributed RabbitMQ
 
 In this chapter we will look the ways that RabbitMQ achieves Scalability and High Availability. This chapter is leaning more to system and DevOps engineers work scope, but also it is good idea to be read by the developers.
 
@@ -59,6 +59,6 @@ Typically you would use the shovel to link brokers across the internet when you 
 | A client connecting to any broker can only use non-exclusive queues in that broker. | A client connecting to any node can use non-exclusive queues on all nodes. |
 
 
-### 3.1 Clustering
+### 4.1 Clustering
 
 In this section we will dive deeper in the RabbitMQ clustering mechanism.
